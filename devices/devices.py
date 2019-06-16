@@ -9,8 +9,6 @@ except RuntimeError:
     
 
 class Door:
-    #channel = 22
-    #door_id = 67
     
     def onDoorOpened(self, channel):
         kDoorOpen = 1
